@@ -9,6 +9,12 @@ nav {
 
 ul {
     li {
-        padding-left: 80px;
+        justify-content: center;
     }
+}
+
+.nav-item {
+    justify-content: center;
+    padding: 1rem;
+    padding-left: 10%;
 }

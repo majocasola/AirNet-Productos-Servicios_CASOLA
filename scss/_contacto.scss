@@ -1,5 +1,5 @@
 @import "variables.scss";
-.contacto {
+#contenedor-contacto {
     min-height: 75vh;
     display: flex;
     justify-content: center;
@@ -8,11 +8,19 @@
     background-size: cover;
 }
 
+#titulo-contacto-desc {
+    text-align: center;
+    justify-content: center;
+    color: rgb(43, 43, 75);
+    font-weight: bold;
+    font-size: 25px;
+}
+
 form {
     max-width: 600px;
     padding: 1rem;
     border: solid;
-    background-color: rgb(104, 124, 136);
+    background-color: rgb(153, 176, 190);
     color: rgb(37, 35, 37);
 }
 

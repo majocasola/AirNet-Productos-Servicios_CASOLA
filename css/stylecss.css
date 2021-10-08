@@ -13,7 +13,12 @@ nav {
   font-family: 'Amiri', serif; }
 
 ul li {
-  padding-left: 80px; }
+  justify-content: center; }
+
+.nav-item {
+  justify-content: center;
+  padding: 1rem;
+  padding-left: 10%; }
 
 .carousel-inner img {
   height: 95vh;
@@ -66,7 +71,19 @@ ul li {
 #card-profile3 {
   max-width: 50%; }
 
+#contenedor-productos {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99abbd;
+  background-size: cover; }
+
 #producto-cont {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #99abbd;
   background-size: cover; }
 
@@ -105,7 +122,8 @@ ul li {
   font-weight: bold;
   width: 10px;
   height: 10px;
-  font-style: normal; }
+  font-style: normal;
+  justify-content: center; }
 
 .btn:hover {
   background-color: #197edd;
@@ -176,7 +194,7 @@ tr td {
   font-style: initial;
   text-align: center; }
 
-.contacto {
+#contenedor-contacto {
   min-height: 75vh;
   display: flex;
   justify-content: center;
@@ -184,11 +202,18 @@ tr td {
   background-color: #99abbd;
   background-size: cover; }
 
+#titulo-contacto-desc {
+  text-align: center;
+  justify-content: center;
+  color: #2b2b4b;
+  font-weight: bold;
+  font-size: 25px; }
+
 form {
   max-width: 600px;
   padding: 1rem;
   border: solid;
-  background-color: #687c88;
+  background-color: #99b0be;
   color: #252325; }
 
 form div {
@@ -223,8 +248,7 @@ footer {
 .redes-sociales a {
   color: white;
   margin-left: 5px;
-  font-size: 20px;
-  padding-top: 50px; }
+  font-size: 20px; }
 
 .redes-sociales a:hover {
   color: #0051ff; }

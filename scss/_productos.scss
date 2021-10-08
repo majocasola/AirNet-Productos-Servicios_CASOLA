@@ -1,5 +1,18 @@
     @import "variables.scss";
+    #contenedor-productos {
+        min-height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(153, 171, 189);
+        background-size: cover;
+    }
+    
     #producto-cont {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: rgb(153, 171, 189);
         background-size: cover;
     }
@@ -38,6 +51,7 @@
     .btn {
         @include btn (10px, 10px, rgb(121, 248, 96), white);
         font-style: normal;
+        justify-content: center;
     }
     
     .btn:hover {
